@@ -162,6 +162,8 @@ dat2$pages <- as.numeric(dat2$pages)
 #### data to sep tables ####
 ############################
 
+dat2 <- read.csv("github_main/data/biblio_poetry_1834_1850.csv")
+
 glimpse(dat2)
 
 #### basic genres distinction ####
@@ -317,8 +319,9 @@ to_exp_u_names <- to_exp_names %>%
   pivot_longer(!work, names_to = "signature", values_to = "count") %>% 
   filter(count != 0) %>% 
   separate(work, into = c("name", "work"), sep = "____") %>% 
-  select(name, work, signature)
+  select(name, signature) %>% 
+  distinct()
 
 glimpse(to_exp_u_names)
 
-write.csv(to_exp_u_names, "scripts/data/2_exp_authors.csv")
+write.csv(to_exp_u_names, "github_main/data/experiment/2_exp_authors.csv")
