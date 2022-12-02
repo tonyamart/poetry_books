@@ -8,7 +8,7 @@ setwd("Documents/thesis1830s/22_02_poetry_collections_biblio/")
 ## Data preparation for the experiment with copia ##
 
 ##### upload raw data #####
-dat <- read_tsv("data/poetic_books_1834_1850_230222.tsv")
+dat <- read.delim("data/poetic_books_1830_1850.tsv", sep = "\t")
 
 glimpse(dat)
 
