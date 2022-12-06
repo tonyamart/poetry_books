@@ -36,10 +36,21 @@ These columns indicate if a printed copy of the book was found in library catalo
 The search in Russian National Library and Russian State Library was based on the data obtained from the 19th century catalogues, additional entries was added after keyword search; for the rest of the library catalogues the whole collection in Russian language was reviewed de visu. The choice of the libraries were made regarding a) a library holding a special 19th century collection in Russian, b) the library being located in the West provinces of the Russian empire.  
   
 **CZ_SLK** -- National Library of the Czech Republic, Slavonic Library (Elektronický katalog Slovanské knihovny) [link](http://www.en.nkp.cz);  total number of entries in Russian between 1830 and 1850: 4222;  
-**EE_ester** -- United catalogue of Estonian Libraries [link]() (total: 3212);  
-**FI_NL** -- National Library of Finland, Slavonic Library (total: 3593);  
-**LT_VUL** -- Vilnius University Library (total: 4423);
-**PL_BUW** -- University of Warsaw Library (total: 827);
-**PL_BN** -- National Library of Poland (total: 1450);
-**RNL** -- Russian National Library (total: ~58 thousands);
-**RSL** -- Russian State Library (total: ~)
+**EE_ester** -- United catalogue of Estonian Libraries [link](https://www.ester.ee/search~S1) (total: 3212);  
+**FI_NL** -- National Library of Finland, Slavonic Library [link](https://kansalliskirjasto.finna.fi/?lng=en-gb) (total: 3593);  
+**LT_VUL** -- Vilnius University Library [link](https://biblioteka.vu.lt/en/) (total: 4423);
+**PL_BUW** -- University of Warsaw Library [link](https://chamo.buw.uw.edu.pl/search/query?theme=system) (total: 827); more info about the Russian collection [Olczak 2015](http://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.desklight-1375c68f-f651-4976-9698-1f9ce5d5354b/c/Olczak01.pdf);  
+**PL_BN** -- National Library of Poland [link](https://www.bn.org.pl) (total: 1450);  
+**RNL** -- Russian National Library [link](https://nlr.ru) (total: ~58 thousands);  
+**RSL** -- Russian State Library [link](https://www.rsl.ru) (total: ~20 thousands);  
+**SPnGU** -- digitized collection of poetic books publised by the Saint Petersburg State University library [link](http://old.library.spbu.ru/dcol/jsp/RcWebBrowse.jsp);  
+**US_Harvard** -- Harvard Library, The Kilgour collection of Russian literature 1750-1920 [link](https://hollis.harvard.edu/primo-explore/) (total: 1887); more info about the collection [The Kilgour Catalogue](https://iiif.lib.harvard.edu/manifests/view/drs:49569435$1i);
+**Rosanov** -- Printed catalogue of I.N. Rozanov's collection (Библиотека русской поэзии И. Н. Розанова: Библиографическое описание [Государственный музей А.С. Пушкина] / Вступ. статья И.Л. Андроникова. М., 1975);  
+**SmSok** -- Smirnov-Sokolsky's almanacs catalogue (Смирнов-Сокольский Н. П. Русские литературные альманахи и сборники XVIII-XIX вв. М., 1965.);  
+  
+**digital_copy** -- library hosting the digital copy of the book;  
+**digital_copy_URL** -- path to the digital copy; if more than one available, others are mentioned in the `Comments` column;  
+**Comments** -- notes on the authorship and preservance of the books;
+**Censure_permit** -- dates of the censure permit (not filled consequtively yet);  
+**Add_censure_data** -- other data related to the book's mentions in censure documents;  
+**Comment_Balakin** -- various comments transferred from the bibliography made by A. Balakin for years 1834-1850 [link](https://nexoro.livejournal.com/532415.html).
