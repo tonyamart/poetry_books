@@ -8,10 +8,7 @@ The main goal of the data collection was to gather books which include lyrical p
 #### I. Book description:  
 **id** -- individual number of each of the entries;  
 **poetry_prose** -- variable indicating whether a book is definitely containing prose (`pr`) or rather mostly in verse (`v`);  
-**book_type** -- one of the three types of edition: 
-* `alm` = almanacs, 
-* `col` = collection of either lyrical or narrative poems, 
-* `sep` = an edition that includes one or two lyrical or narrative poems;  
+**book_type** -- one of the three types of edition: `alm` = almanacs, `col` = collection of either lyrical or narrative poems, `sep` = an edition that includes one or two lyrical or narrative poems;  
 **genre** -- lyrical (`lyr`) or narrative (`nar`) genre of poems;  
 **special_tag** -- number of tags indicating thematic features of a book, if they were available in catalogues; `unknown` = lost books, `ortho` = orthodox literature; `ukr` = books published in or connected with Ukraine; `double` = indication of the second and consequtive editions of the same book in the table (not filled consequtively at the moment);  
 **author_sign** -- the way an author is indicated in the book;  
@@ -38,16 +35,16 @@ These columns includes the book's index number if the book was found in the foll
 These columns indicate if a printed copy of the book was found in library catalogues. As the Russian National Library was the holder of legal deposits and still contains most of the books of the bibliography, the entries of *RNL* are supplied with ID of the RusMARC cards (the collection of cards is provided as an archive in this repository).  
 The search in Russian National Library and Russian State Library was based on the data obtained from the 19th century catalogues, additional entries was added after keyword search; for the rest of the library catalogues the whole collection in Russian language was reviewed de visu. The choice of the libraries were made regarding a) a library holding a special 19th century collection in Russian, b) the library being located in the West provinces of the Russian empire.  
   
-**CZ_SLK** -- National Library of the Czech Republic, Slavonic Library (Elektronický katalog Slovanské knihovny) [link](http://www.en.nkp.cz);  total number of entries in Russian between 1830 and 1850: 4222;  
-**EE_ester** -- United catalogue of Estonian Libraries [link](https://www.ester.ee/search~S1) (total: 3212);  
-**FI_NL** -- National Library of Finland, Slavonic Library [link](https://kansalliskirjasto.finna.fi/?lng=en-gb) (total: 3593);  
-**LT_VUL** -- Vilnius University Library [link](https://biblioteka.vu.lt/en/) (total: 4423);
-**PL_BUW** -- University of Warsaw Library [link](https://chamo.buw.uw.edu.pl/search/query?theme=system) (total: 827); more info about the Russian collection [Olczak 2015](http://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.desklight-1375c68f-f651-4976-9698-1f9ce5d5354b/c/Olczak01.pdf);  
-**PL_BN** -- National Library of Poland [link](https://www.bn.org.pl) (total: 1450);  
-**RNL** -- Russian National Library [link](https://nlr.ru) (total: ~58 thousands);  
-**RSL** -- Russian State Library [link](https://www.rsl.ru) (total: ~20 thousands);  
-**SPnGU** -- digitized collection of poetic books publised by the Saint Petersburg State University library [link](http://old.library.spbu.ru/dcol/jsp/RcWebBrowse.jsp);  
-**US_Harvard** -- Harvard Library, The Kilgour collection of Russian literature 1750-1920 [link](https://hollis.harvard.edu/primo-explore/) (total: 1887); more info about the collection [The Kilgour Catalogue](https://iiif.lib.harvard.edu/manifests/view/drs:49569435$1i);  
+**CZ_SLK** -- National Library of the Czech Republic, Slavonic Library (Elektronický katalog Slovanské knihovny), [link](http://www.en.nkp.cz);  total number of entries in Russian between 1830 and 1850: 4222;  
+**EE_ester** -- United catalogue of Estonian Libraries, [link](https://www.ester.ee/search~S1) (total: 3212);  
+**FI_NL** -- National Library of Finland, Slavonic Library, [link](https://kansalliskirjasto.finna.fi/?lng=en-gb) (total: 3593);  
+**LT_VUL** -- Vilnius University Library, [link](https://biblioteka.vu.lt/en/) (total: 4423);  
+**PL_BUW** -- University of Warsaw Library, [link](https://chamo.buw.uw.edu.pl/search/query?theme=system) (total: 827); more info about the Russian collection [Olczak 2015](http://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.desklight-1375c68f-f651-4976-9698-1f9ce5d5354b/c/Olczak01.pdf);  
+**PL_BN** -- National Library of Poland, [link](https://www.bn.org.pl) (total: 1450);  
+**RNL** -- Russian National Library, [link](https://nlr.ru) (total: ~58 thousands);  
+**RSL** -- Russian State Library, [link](https://www.rsl.ru) (total: ~20 thousands);  
+**SPnGU** -- digitized collection of poetic books publised by the Saint Petersburg State University library, [link](http://old.library.spbu.ru/dcol/jsp/RcWebBrowse.jsp);  
+**US_Harvard** -- Harvard Library, The Kilgour collection of Russian literature 1750-1920, [link](https://hollis.harvard.edu/primo-explore/) (total: 1887); more info about the collection [The Kilgour Catalogue](https://iiif.lib.harvard.edu/manifests/view/drs:49569435$1i);  
 **Rosanov** -- Printed catalogue of I.N. Rozanov's collection (Библиотека русской поэзии И. Н. Розанова: Библиографическое описание [Государственный музей А.С. Пушкина] / Вступ. статья И.Л. Андроникова. М., 1975);  
 **SmSok** -- Smirnov-Sokolsky's almanacs catalogue (Смирнов-Сокольский Н. П. Русские литературные альманахи и сборники XVIII-XIX вв. М., 1965.);  
   
