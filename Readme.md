@@ -5,6 +5,7 @@ This repository contains data and scripts for studying survival trends in poetic
 The main experiment is made with `copia` python module, the preprocessing and analysis steps are shown in Jupyter nobebooks in the `scr` folder.  
   
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+[![DOI](https://zenodo.org/badge/520275372.svg)](https://zenodo.org/badge/latestdoi/520275372)
 
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
