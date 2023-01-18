@@ -1,7 +1,10 @@
 ## Poetic books issued between 1830 and 1850
 
-The data stored in the `biblio_poetry_1830_1850.csv` presents harmonised bibliographical data on poetic books issued in Russian Empire between 1830 and 1850. Although most of the bibliographical information is not used in the main experiment, this raw data includes various information on the books according to booksellers' and library catalogues.  
+The data stored in the `raw_data_poetry_1830_1850.csv` presents harmonised bibliographical data on poetic books issued in Russian empire between 1830 and 1850. Although most of the bibliographical information is not used in the main experiment, this raw data includes various information on the books according to booksellers' and library catalogues.  
   
+The dataset `poetry_books_experiment_wide.csv` was used for the main experiment with `copia`. For the preprocessing steps between raw data and this dataset, see `scr/01_data_preparation.ipynb`.  
+  
+### Description of the raw data 
 The main goal of the data collection was to gather books which include lyrical poetry. However, as the research expanded, narrative poems and almanacs were included in the bibliography as well. Nevertheless, the current version of the table does **not** include theatrical pieces in verse (drama) and children books of poetry both being very special genres; for the same reason I have not included most of the information on the music sheets and collections of (folk) songs and romances as their bibliography is available in other sources. Lastly, the posthumous poetry collections and translations were also not included in the current bibliography.  
   
 ### **Column names and tags**  
